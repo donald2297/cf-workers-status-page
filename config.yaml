@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'EllenBuy.com Status Monitor'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: workers-cloudflare-com # unique identifier
-    name: https://www.ellenbuy.com
+    name: EllenBuy Homepage
     description: 'https://www.ellenbuy.com.' # default=empty
     url: 'https://www.ellenbuy.com/' # URL to fetch
     method: GET # default=GET
@@ -33,7 +33,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-cloudflare-com
-    name: EllenBuy Contact 
+    name: EllenBuy Contact Page - Click to Send an Email Now
     url: 'https://www.ellenbuy.com/contact.html'
     method: GET
     expectStatus: 200
