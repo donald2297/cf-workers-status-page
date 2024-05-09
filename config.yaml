@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: workers-cloudflare-com # unique identifier
     name: https://www.ellenbuy.com
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'https://www.ellenbuy.com.' # default=empty
     url: 'https://www.ellenbuy.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
