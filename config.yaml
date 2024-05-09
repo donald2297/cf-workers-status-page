@@ -34,6 +34,6 @@ monitors:
 
   - id: blog-cloudflare-com
     name: EllenBuy Contact Page - Click to Send an Email Now
-    url: 'https://www.ellenbuy.com/contact/'
+    url: 'https://contact.ellenbuy.com/'
     method: GET
     expectStatus: 200
