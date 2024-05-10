@@ -27,7 +27,7 @@ monitors:
   - id: www-cloudflare-com
     name: EllenBuy Checkout Portal
     description: 'EllenBuy Checkout Portal'
-    url: 'https://secure7-checkout-order-store.infinityfreeapp.com/'
+    url: 'https://ellenbuy.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
