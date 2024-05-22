@@ -27,7 +27,7 @@ monitors:
   - id: www-cloudflare-com
     name: EllenBuy Checkout Portal
     description: 'EllenBuy Checkout Portal'
-    url: 'https://ellenbuy.com/'
+    url: 'https://ellenbuy.com/cart/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
